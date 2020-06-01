@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Endpoints
+metadata:
+  name: musician
+subsets:
+  - addresses:
+      - ip: 10.102.249.244
+    ports:
+      - port: 3001
